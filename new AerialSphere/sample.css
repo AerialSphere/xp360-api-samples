@@ -1,7 +1,0 @@
-.aerialSphereMapClass {
-  height: calc(100vh - 220px);
-  width: calc(100% - 30px);
-  overflow: hidden;
-  margin-right: 15px;
-  margin-left: 15px;
-}
