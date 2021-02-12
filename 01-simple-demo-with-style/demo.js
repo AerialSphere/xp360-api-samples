@@ -11,6 +11,6 @@ const sphereData = {
 
 const aerialSphere = new AerialSphere(
     'aerialSphereMap',
-    'aerialSphereMapClass',
+    'aerialSphereIframeClassname',
     sphereData
 );
