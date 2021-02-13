@@ -1,6 +1,6 @@
 ---
-name: AerialSphere Add Marker Demo
-description: Adds a marker to a sphere
+name: AerialSphere Set Widget Enabled Demo
+description: Hides the full-screen and navigation widgets
 authors:
     - AerialSphere
 resources:
