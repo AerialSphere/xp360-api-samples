@@ -10,7 +10,7 @@ const sphereData = {
 }
 
 const aerialSphere = new AerialSphere(
-    'aerialSphereMap',
+    'aerialSphereDivId',
     'aerialSphereIframeClassname',
     sphereData
 );
