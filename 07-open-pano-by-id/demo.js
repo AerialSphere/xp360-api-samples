@@ -15,10 +15,6 @@ const aerialSphere = new AerialSphere(
     sphereData
 );
 
-const hideMarkers = () => {
-    aerialSphere.setLayerVisibility('default', false)
-}
-
-const showMarkers = () => {
-    aerialSphere.setLayerVisibility('default', true)
+const openPano = (id) => {
+    aerialSphere.openPanoramaById(id)
 }
