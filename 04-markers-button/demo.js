@@ -70,8 +70,8 @@ const addNewMarker = async () => {
     const layer = data.layers[0];
 
     const name = `Marker ${layer.markers.length + 1}`;
-    const lat =  37.8106185 + .1 * (Math.random() - 0.5);
-    const lng =  -122.4770527 + .1 * (Math.random() - 0.5);
+    const lat =  37.8106185 + 0.1 * (Math.random() - 0.5);
+    const lng =  -122.4770527 + 0.1 * (Math.random() - 0.5);
 
     const markerAddedCallback = async (marker) => {
         const newData = {
