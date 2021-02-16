@@ -1,0 +1,7 @@
+---
+name: AerialSphere Open Panorama By Id Demo
+description: Opens a pano by the specified ID
+authors:
+    - AerialSphere
+resources:
+    - https://app.aerialsphere.com/api/map/js?key=4f0e9801-ab77-4394-874e-d56404ab17db
