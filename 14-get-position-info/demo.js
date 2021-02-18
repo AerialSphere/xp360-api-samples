@@ -14,7 +14,7 @@ const aerialSphere = new AerialSphere(
 );
 
   // Alert values for x, y, lat, lng, pan and tilt.
-  const showCenterScreenUsingPositionInfo = () => {
+  const getPosition = () => {
     const mapElement = document.getElementById("aerialSphereDivId");
     if (!mapElement) return;
     const centerX = mapElement.clientWidth / 2;
