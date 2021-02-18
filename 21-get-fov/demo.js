@@ -50,6 +50,6 @@ const aerialSphere = new AerialSphere(
 
 const getRange = () => {
   aerialSphere.getFovRange((result) => {
-    alert(`Current camera Fov Min: ${result.cameraFovMin} and Max: ${result.cameraFovMax}`)
+    alert(`Current camera FoV: ${result.cameraFov}`)
   });
 };
