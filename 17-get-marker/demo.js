@@ -50,6 +50,6 @@ const aerialSphere = new AerialSphere(
 
 const getMarker = async () => {
   aerialSphere.getMarker(3, (ps) => {
-    alert(`Found marker: ${ps.name}. It is at: lat: ${ps.lat}, lng: ${ps.lng}. It is currently using the icon: ${ps.icon === undefined ? "default" : ps.icon}`)
+    alert(`Found marker: ${ps.name}. It is at: lat: ${ps.lat}, lng: ${ps.lng}. It is currently using the icon: ${ps.icon === undefined ? "poi" : ps.icon}`)
   });
 };
