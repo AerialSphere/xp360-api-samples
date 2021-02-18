@@ -5,8 +5,6 @@ const sphereData = {
     cameraFovMin: 10,
     cameraFovMax: 145,
     layers: [],
-    cameraZoomMin: 5,
-    cameraZoomMin : 15,
 };
 
 const aerialSphere = new AerialSphere(
@@ -16,7 +14,7 @@ const aerialSphere = new AerialSphere(
 );
 
 const getRange = () => {
-    aerialSphere.getZoomRange((min, max) => {
-        alert(`Current Zoom range is ${min} to ${max}`)
+    aerialSphere.getZoomRange((zoomRange) => {
+        alert(`Current Zoom range is ${zoomRange.cameraZoomMin} to ${zoomRange.cameraZoomMax}`)
     });
 }
