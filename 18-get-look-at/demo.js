@@ -48,8 +48,8 @@ const aerialSphere = new AerialSphere(
   sphereData
 );
 
-const getLook = async () => {
-  aerialSphere.getLookat((result) => {
+const getLook = () => {
+  aerialSphere.getLookAt((result) => {
     alert(`Currently looking at pan: ${result.pan} tilt: ${result.tilt}`)
   });
 };
