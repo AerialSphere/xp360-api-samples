@@ -48,8 +48,8 @@ const aerialSphere = new AerialSphere(
   sphereData
 );
 
-const getRange = () => {
-  aerialSphere.getFovRange((result) => {
+const getFov = () => {
+  aerialSphere.getFov((result) => {
     alert(`Current camera FoV: ${result.cameraFov}`)
   });
 };
