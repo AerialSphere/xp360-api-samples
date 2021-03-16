@@ -1,10 +1,10 @@
 const sphereData = {
-    sphereLat: 33.323741448909225,
-    sphereLng: -111.73930440609989,
+    sphereLat: 37.8199286,
+    sphereLng: -122.4782551,
     title: 'Example',
-    lookAtLat: 33.32044654603967,
-    lookAtLng: -111.74065486034277,
-    cameraFov: 30,
+    lookAtLat: 37.815,
+    lookAtLng: -122.4775,
+    cameraFov: 90,
     cameraFovMin: 10,
     cameraFovMax: 145,
     layers: [
