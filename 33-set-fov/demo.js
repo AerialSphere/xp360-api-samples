@@ -3,8 +3,7 @@ const sphereData = {
     sphereLng: -111.73930440609989,
     lookAtLat: 37.815,
     lookAtLng: -122.4775,
-    cameraFov: 90,
-    cameraFovMin: 10,
+    cameraFovMin: 1,
     cameraFovMax: 360,
     panoMarkerDistance: 10000,
     layers: [
