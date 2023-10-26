@@ -70,19 +70,13 @@ const addNewMarker = async () => {
     const layer = data.layers[0];
 
     const name = `Marker ${layer.markers.length + 1}`;
-    const lat =  37.8106185 + 0.1 * (Math.random() - 0.5);
-    const lng =  -122.4770527 + 0.1 * (Math.random() - 0.5);
+    const lat =  37.8106185 + 0.01 * (Math.random() - 0.5);
+    const lng =  -122.4770527 + 0.01 * (Math.random() - 0.5);
 
-    const markerAddedCallback = async (marker) => {
-        const newData = {
-            sphereLat: data.sphereLat,
-            sphereLng: data.sphereLng,
-            lookAtLat: marker.lat,
-            lookAtLng: marker.lng,
-        };
-        await aerialSphere.sendData(newData);
-    
-    }
-
-    await aerialSphere.addMarker(lat, lng, undefined, name, undefined, layer.name, undefined, undefined, markerAddedCallback);
+    await aerialSphere.addMarker({ 
+        lat: lat, 
+        lng: lng, 
+        name: name, 
+        layer:layer.name,
+    });
 };
