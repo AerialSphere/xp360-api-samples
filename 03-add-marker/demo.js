@@ -26,7 +26,7 @@ aerialSphere.addMarker({
 aerialSphere.addMarker({
     lat: baseLatitude + 0.0006,
     lng: baseLongitude + 0.0006,
-    name: "Test Marker 2", // name/title
+    name: "Test Marker 2", 
     icon: { // custom icon
         url: "https://c2.peakpx.com/wallpaper/1003/267/588/hand-yes-ok-isolated-background-wallpaper-preview.jpg",
         teardrop: true,
@@ -39,7 +39,7 @@ aerialSphere.addMarker({
 aerialSphere.addMarker({
     lat: baseLatitude + 0.0012,
     lng: baseLongitude + 0.0012,
-    name: "Test Marker 3", // name/title
+    name: "Test Marker 3", 
     description: `<span style="color:blue">I am blue</span>
         <br>
         <b>I am bold</b>
@@ -51,14 +51,14 @@ aerialSphere.addMarker({
 aerialSphere.addMarker({
     lat: baseLatitude + 0.0018,
     lng: baseLongitude + 0.0018,
-    name: "Test Marker 4", // name/title
-    description: "I have metadata", // description
-    icon: "park", // icon
-    layer: "parks-in-the-area", // layer
-    id: "user-selected-id", // id
-    hoverText: "I show on hover", // hoverText
-    popup: true, // popup
-    isStatic: false, // isStatic
-    metaData: {"item 1": "example metadata"}, // metaData
-    iconColor: "#00A19C", // iconColor
+    name: "Test Marker 4", 
+    description: "I have metadata", 
+    icon: "park", 
+    layer: "parks-in-the-area", 
+    id: "user-selected-id", 
+    hoverText: "I show on hover", 
+    popup: true, 
+    isStatic: false, 
+    metaData: {"item 1": "example metadata"}, 
+    iconColor: "#00A19C", 
 });
