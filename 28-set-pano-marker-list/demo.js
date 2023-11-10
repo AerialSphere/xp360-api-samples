@@ -32,7 +32,7 @@ const aerialSphere = new AerialSphere(
 );
 
 const listOn = () => {
-    aerialSphere.setPanoMarkerList([
+    aerialSphere.setSphereMarkerList([
         3079,
         3080,
         3081,
@@ -46,5 +46,5 @@ const listOn = () => {
 }
 
 const listOff = () => {
-    aerialSphere.setPanoMarkerList([]);
+    aerialSphere.setSphereMarkerList([]);
 }

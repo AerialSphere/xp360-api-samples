@@ -49,7 +49,7 @@ const aerialSphere = new AerialSphere(
 );
 
 const getActive = () => {
-  aerialSphere.getActivePano((result) => {
-    alert(`Current Panorama's Id is: ${result.id}. It was captured at ${result.dateTimeAcquired} and is at lat: ${result.lat} and lng: ${result.lng}`)
+  aerialSphere.getActiveSphere((result) => {
+    alert(`Current Sphere's Id is: ${result.id}. It was captured at ${result.dateTimeAcquired} and is at lat: ${result.lat} and lng: ${result.lng}`)
   });
 };

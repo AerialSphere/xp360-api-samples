@@ -1,6 +1,6 @@
 ---
-name: AerialSphere Open Panorama By Id Demo
-description: Opens a pano by the specified ID
+name: AerialSphere Open Sphere By Id Demo
+description: Opens a sphere (panorama) using the specified ID
 authors:
     - AerialSphere
 resources:

@@ -34,11 +34,11 @@ const aerialSphere = new AerialSphere(
 );
 
 const setFovMin = (e) => {
-    foxMax = document.getElementById('fovMax');
+    fovMax = document.getElementById('fovMax');
     aerialSphere.setFovRange(Number(e.value), Number(fovMax.value));
 }
 
 const setFovMax = (e) => {
-    foxMin = document.getElementById('fovMin');
+    fovMin = document.getElementById('fovMin');
     aerialSphere.setFovRange(Number(fovMin.value), Number(e.value));
 }

@@ -14,8 +14,8 @@ const aerialSphere = new AerialSphere(
 );
 
 const findNearest = async () => {
-aerialSphere.getNearestPano(32.716130343042764, -117.16231495126135, (ps) => {
-alert(`Closest Panorama to 32.716130343042764, -117.16231495126135: id: ${ps.panoId}, distance: ${ps.distance} meters`)
+aerialSphere.getNearestSphere(32.716130343042764, -117.16231495126135, (ps) => {
+alert(`Closest Panorama to 32.716130343042764, -117.16231495126135: id: ${ps.sphereId}, distance: ${ps.distance} meters`)
 });
 
 };

@@ -1,4 +1,4 @@
-const sphereData: SphereData = {
+const sphereData = {
   sphereLat: 33.323741448909225,
   sphereLng: -111.73930440609989,
   title: 'Example',
@@ -9,7 +9,7 @@ const sphereData: SphereData = {
   cameraFovMax: 145
 }
 
-const aerialSphere: AS = new AerialSphere(
+const aerialSphere = new AerialSphere(
     'aerialSphereMap',
     'aerialSphereMapClass',
     sphereData

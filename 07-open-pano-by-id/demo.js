@@ -15,6 +15,6 @@ const aerialSphere = new AerialSphere(
     sphereData
 );
 
-const openPano = (id) => {
-    aerialSphere.openPanoramaById(id)
+const openSphere = (id) => {
+    aerialSphere.openSphereById(id)
 }

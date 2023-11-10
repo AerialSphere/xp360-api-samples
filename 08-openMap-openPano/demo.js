@@ -19,6 +19,6 @@ const openMap = () => {
     aerialSphere.openMap()
 }
 
-const openPano = () => {
-    aerialSphere.openPanorama()
+const openSphere = () => {
+    aerialSphere.openSphere()
 }

@@ -1,6 +1,6 @@
 ---
-name: AerialSphere Get Active Pano Data
-description: Gets the current active panorama.
+name: AerialSphere Get Active Sphere Data
+description: Gets the current active sphere (panorama).
 authors:
     - AerialSphere
 resources:

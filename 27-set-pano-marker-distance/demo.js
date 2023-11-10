@@ -30,6 +30,6 @@ const aerialSphere = new AerialSphere(
 );
 
 const changeDistance = (e) => {
-    aerialSphere.setPanoMarkerDistance(Number(e.value));
+    aerialSphere.setSphereMarkerDistance(Number(e.value));
 }
 

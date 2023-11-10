@@ -1,6 +1,6 @@
 ---
-name: AerialSphere Set Pano Marker Distance
-description: Sets the max distance at which to render panorama markers
+name: AerialSphere Set Sphere Marker Distance
+description: Sets the max distance at which to render sphere (panorama) markers
 authors:
     - AerialSphere
 resources:
