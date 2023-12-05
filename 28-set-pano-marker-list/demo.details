@@ -1,6 +1,6 @@
 ---
-name: AerialSphere Set Pano Marker List
-description: A list of panorama ids that defines which panorama markers are visible. Ignores Pano Marker Distance.
+name: AerialSphere Set Sphere Marker List
+description: A list of sphere (panorama) ids that defines which sphere markers are visible. Ignores Sphere Marker Distance.
 authors:
     - AerialSphere
 resources:

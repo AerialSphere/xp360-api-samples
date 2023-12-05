@@ -1,6 +1,6 @@
 ---
-name: AerialSphere Open Panorama and Open Map Demo
-description: Opens the map / Opens the active pano
+name: AerialSphere Open Sphere and Open Map Demo
+description: Opens the map / Opens the active sphere (panorama)
 authors:
     - AerialSphere
 resources:

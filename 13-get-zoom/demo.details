@@ -1,6 +1,6 @@
 ---
 name: AerialSphere Get Zoom Demo
-description: Gets current sphere zoom range.
+description: Gets current sphere zoom level.
 authors:
     - AerialSphere
 resources:

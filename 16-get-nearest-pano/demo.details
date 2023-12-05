@@ -1,6 +1,6 @@
 ---
-name: AerialSphere Get Nearest Panorama Demo
-description: Gets the nearest panorama
+name: AerialSphere Get Nearest Sphere Demo
+description: Gets the nearest sphere (panorama)
 authors:
     - AerialSphere
 resources:

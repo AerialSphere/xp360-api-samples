@@ -33,12 +33,12 @@ const aerialSphere = new AerialSphere(
     sphereData
 );
 
-const setFovMin = (e) => {
-    foxMax = document.getElementById('fovMax');
-    aerialSphere.setFovRange(Number(e.value), Number(fovMax.value));
+const setFovMin = async (e) => {
+    var data = await aerialSphere.getData();
+    aerialSphere.setFovRange(Number(e.value), Number(data.cameraFovMax));
 }
 
-const setFovMax = (e) => {
-    foxMin = document.getElementById('fovMin');
-    aerialSphere.setFovRange(Number(fovMin.value), Number(e.value));
+const setFovMax = async (e) => {
+    var data = await aerialSphere.getData();
+    aerialSphere.setFovRange(Number(data.cameraFovMin), Number(e.value));
 }

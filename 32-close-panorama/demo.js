@@ -15,6 +15,6 @@ const aerialSphere = new AerialSphere(
     sphereData
 );
 
-const closePano = () => {
-    aerialSphere.closePanorama()
+const closeSphere = () => {
+    aerialSphere.closeSphere()
 }

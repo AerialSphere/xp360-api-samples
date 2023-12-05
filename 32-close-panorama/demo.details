@@ -1,6 +1,6 @@
 ---
-name: AerialSphere Close Panorama
-description: Closes the active pano and opens the map
+name: AerialSphere Close Sphere
+description: Closes the active sphere (panorama) and opens the map
 authors:
     - AerialSphere
 resources:
