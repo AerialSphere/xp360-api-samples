@@ -15,14 +15,14 @@ const aerialSphere = new AerialSphere(
   sphereData
 );
 
-/* Basic marker */
+/* Basic Icon Marker */
 aerialSphere.addMarker({
     lat: baseLatitude,
     lng: baseLongitude, 
     name: "Test Marker 1"
 });
 
-/* Custom marker */
+/* Basic Custom marker */
 aerialSphere.addMarker({
     lat: baseLatitude + 0.0006,
     lng: baseLongitude + 0.0006,
@@ -35,7 +35,7 @@ aerialSphere.addMarker({
     }
 });
 
-/* Marker with fancy description */
+/* Icon Marker with fancy description */
 aerialSphere.addMarker({
     lat: baseLatitude + 0.0012,
     lng: baseLongitude + 0.0012,
@@ -44,10 +44,11 @@ aerialSphere.addMarker({
         <br>
         <b>I am bold</b>
         <hr>
+        <a href="https://www.aerialsphere.com/" target="_blank">Visit the AerialSphere Website</a><br>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Thumbs_up_icon.svg/1877px-Thumbs_up_icon.svg.png" alt="big thumbs up" width="90" height="90">`// description
 });
 
-/* Marker wih some of everything */
+/* Icon Marker wih some of everything */
 aerialSphere.addMarker({
     lat: baseLatitude + 0.0018,
     lng: baseLongitude + 0.0018,
@@ -61,4 +62,22 @@ aerialSphere.addMarker({
     isStatic: false, 
     metaData: {"item 1": "example metadata"}, 
     iconColor: "#00A19C", 
+});
+
+/* Basic Logo Marker */
+aerialSphere.addMarker({
+    lat: baseLatitude + 0.0024,
+    lng: baseLongitude + 0.0024,
+    name: "Test Marker 5", 
+    icon: "logo_walmart",
+});
+
+/* Basic Text Marker */
+aerialSphere.addMarker({
+    lat: baseLatitude + 0.0034,
+    lng: baseLongitude + 0.0034,
+    name: "Test Marker 6", 
+    icon: "text",
+    iconText: "Text Marker",
+    isStatic: true,
 });
