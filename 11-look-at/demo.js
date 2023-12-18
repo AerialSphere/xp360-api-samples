@@ -14,16 +14,25 @@ const aerialSphere = new AerialSphere(
 );
 
 const lookUp = () => {
-    aerialSphere.setLookAt(0, 0)
+    aerialSphere.setLookAt(0.01, 0.01)
 }
 
 const lookDown = () => {
-    aerialSphere.setLookAt(0, 180)
+    aerialSphere.setLookAt(0.01, 180)
 }
 
 const lookLeft = () => {
+    aerialSphere.setLookAt(90, 90)
+}
+
+const lookRight = () => {
     aerialSphere.setLookAt(-90, 90)
 }
-const lookRight = () => {
-    aerialSphere.setLookAt(90, 90)
+
+const lookForward = () => {
+    aerialSphere.setLookAt(0.01, 90)
+}
+
+const lookBackward = () => {
+    aerialSphere.setLookAt(180, 90)
 }
