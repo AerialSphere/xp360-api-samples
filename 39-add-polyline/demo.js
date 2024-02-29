@@ -64,7 +64,7 @@ const sphereData = {
                         },
                         {
                             id: 91987398,
-                            name: 'Joslyns Line 1',
+                            name: 'Other Line 1',
                             points: [
                                 {
                                     lng: -111.74275491673401,
@@ -88,7 +88,7 @@ const sphereData = {
                         },
                         {
                             id: 919872398,
-                            name: 'Joslyns Line 2',
+                            name: 'Other Line 2',
                             points: [
                                 {
                                     lng: -111.74090881575232,
