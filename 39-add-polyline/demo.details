@@ -1,0 +1,7 @@
+---
+name: AerialSphere addPolyline
+description: Adds a polyline (a line on the map) to the viewer
+authors:
+    - AerialSphere
+resources:
+    - https://app.aerialsphere.com/api/map/js?key=4f0e9801-ab77-4394-874e-d56404ab17db
