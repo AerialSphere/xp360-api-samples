@@ -2,8 +2,8 @@ const sphereData = {
     sphereLat: 33.323741448909225,
     sphereLng: -111.73930440609989,
     title: 'Top Golf Gilbert',
-    lookAtLat: 33.32000084547667,
-    lookAtLng: -111.74163936660382,
+    lookAtLat: 33.317795,
+    lookAtLng: -111.742894,
     cameraFov: 90,
     cameraFovMin: 10,
     cameraFovMax: 360,
@@ -117,6 +117,6 @@ const aerialSphere = new AerialSphere(
     sphereData
 );
 
-const changeDistance = (e) => {
-    aerialSphere.setPolygonDistance(Number(e.value));
+function changeDistance(element) {
+    aerialSphere.setPolylineDistance(Number(element.value));
 }
