@@ -48,6 +48,6 @@ const aerialSphere = new AerialSphere(
   sphereData
 );
 
-const replaceLayer = () => {
+const removeLayer = () => {
   aerialSphere.removeLayer('default');
 };
