@@ -50,7 +50,7 @@ const aerialSphere = new AerialSphere(
 
 const replaceLayer = () => {
   aerialSphere.replaceLayer('default', {
-    name: 'default',
+    name: 'not-default',
     visible: true,
     markers: [
         {
