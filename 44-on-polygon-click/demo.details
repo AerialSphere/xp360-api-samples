@@ -1,6 +1,6 @@
 ---
-name: AerialSphere Remove Layer
-description: Remove an existing layer.
+name: AerialSphere on polygon click demo.
+description: Handles on click events and passes into callback function.
 authors:
     - AerialSphere
 resources:

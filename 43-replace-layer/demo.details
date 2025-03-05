@@ -1,6 +1,6 @@
 ---
-name: AerialSphere Remove Layer
-description: Remove an existing layer.
+name: AerialSphere Replace Layer Demo
+description: replace an existing layer with new data.
 authors:
     - AerialSphere
 resources:
